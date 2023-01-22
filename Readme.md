@@ -1,7 +1,7 @@
 # Hero Projects
 
 **IMU-based Wheelchair Navigation**
-Default Password: EEE20003
+Default Password: EEE20003  
 Implements interrupt driven programming to collect, compute and indicate wheelchair movement direction.
 proximity sensor feature to indicate when wheelchair is too close to an obstacle.
 Saves and read sensor data to EEPROM.
