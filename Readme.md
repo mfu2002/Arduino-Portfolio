@@ -6,40 +6,39 @@ Implements interrupt driven programming to collect, compute and indicate wheelch
 proximity sensor feature to indicate when wheelchair is too close to an obstacle.  
 Saves and read sensor data to EEPROM.  
 https://wokwi.com/projects/346652160874775122  
-**Clock/Timer/Alarm Project**
-Enter A or D (UpperCase) to switch between Analogue or Digital, respectively.
-This can be done at any stage of the solution; it can be changed later.
-default is the digital clock.
-Hold the button (or key 5 on your keyboard) for 5 seconds to swtich between
-display screen (Clock, Timer, Alarm).
-On the Clock screen, short press (<5 sec) the button to toggle the temp display.
-On the Timer screen, short press (<5 sec) the button to start and stop the timer
-On the Alarm scree, hold the button for 2sec but less than 5sec to switch
-between set hour, set minute and display alarm time state.
-short press (<2 sec) on the set hour state will increment the alarm hour.
-short press (<2 sec) on the set minute state will increment the alarm minute.
-short press (<2 sec) on the display alarm state will toggle the alarm on and off.
-the alarm hour and minute are saved in the EEPROM.
-The temp is also indicated using LEDs. For temp >25, it is treated as hot therefore,
-the red led will turn on. Temp that is >18 and <=25 is taken as warm and the amber
-light will be on. For temps <= 18, the green light will be on.
+**Clock/Timer/Alarm Project**  
+Enter A or D (UpperCase) to switch between Analogue or Digital, respectively.  
+This can be done at any stage of the solution; it can be changed later.  
+default is the digital clock.  
+Hold the button (or key 5 on your keyboard) for 5 seconds to swtich between  
+display screen (Clock, Timer, Alarm).  
+On the Clock screen, short press (<5 sec) the button to toggle the temp display.  
+On the Timer screen, short press (<5 sec) the button to start and stop the timer  
+On the Alarm scree, hold the button for 2sec but less than 5sec to switch  
+between set hour, set minute and display alarm time state.  
+short press (<2 sec) on the set hour state will increment the alarm hour.  
+short press (<2 sec) on the set minute state will increment the alarm minute.  
+short press (<2 sec) on the display alarm state will toggle the alarm on and off.  
+the alarm hour and minute are saved in the EEPROM.  
+The temp is also indicated using LEDs. For temp >25, it is treated as hot therefore,  
+the red led will turn on. Temp that is >18 and <=25 is taken as warm and the amber  
+light will be on. For temps <= 18, the green light will be on.  
 https://wokwi.com/projects/343190939116765779
 
-**LED Matrix Text Display**
-Enter text in the serial monitor to display on the LED matrix.
-This text can be changed at any time from the serial monitor.
-press the button (or key 5 on your keyboard) for <=1 sec, to move the
-text from left to right.
+**LED Matrix Text Display**  
+Enter text in the serial monitor to display on the LED matrix.  
+This text can be changed at any time from the serial monitor.  
+press the button (or key 5 on your keyboard) for <=1 sec, to move the  
+text from left to right.  
 press the button for > 2 to move the text from right to left.  
- press the button >1 and <= 2, to change between three speed modes.
-Constraint:
-Only one button allowed.
-
+ press the button >1 and <= 2, to change between three speed modes.  
+Constraint:  
+Only one button allowed.  
 https://wokwi.com/projects/344174393136513619
 
 # Other Projects
 
-Pass Borderline Task 1
+Pass Borderline Task 1  
 Q1. Briefly describe what is the different between the void setup (), the void loop () and the main () function?
 
 In C/C++ main is the entry point of the program. It is the function that is called when the application is started, and all other functions are called from there. In Arduino Programming language, the main function is not available. Instead, we have the setup and loop functions. Setup is called once at the start. It is used to set up all the program such as setting the input and output pins. Loop is called repeatedly. It is where the crux of the code is.
