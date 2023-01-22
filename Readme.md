@@ -117,7 +117,7 @@ Q12 Write a function to for multiplication, Values needed to multiply be the inp
 
 https://wokwi.com/projects/343197903272018516
 
-Pass Borderline Task 2
+Pass Borderline Task 2  
 Q1. Connect the Arduino, write a program that will display your name and the ID number once in the serial monitor.
 
 void setup() {
@@ -198,7 +198,7 @@ Q7. Connect the seven segment LED display, write code to display number from 9 t
 
 https://wokwi.com/projects/343941839800238676
 
-Pass Borderline Task 3&4
+Pass Borderline Task 3&4  
 Q1. Connect OLED display to Arduino Mega. Write code to draw Olympic Rings symbol at centre of the OLED display. (require demonstration)
 
 https://wokwi.com/projects/343942668086149715
@@ -211,7 +211,7 @@ Q3. Connect DS1307 RTC and LED Matrix with “chain” attribute is 5 to Arduino
 
 https://wokwi.com/projects/343943407626879572
 
-Pass Borderline Task 5
+Pass Borderline Task 5  
 Q1. Write a program that displays the correct reading of the temperature in the immediate surrounding of the temperature sensor in Celsius and Fahrenheit using appropriate calibration steps on the serial monitor. (Require demonstration)
 
 https://wokwi.com/projects/341394269421961812
@@ -227,7 +227,7 @@ https://wokwi.com/projects/341581323721245266
 Q4. Write a program that turns on the LED when the push button is pressed and turns it off when the push button is pressed again and so on. Every time the push button is pressed, the state of LED is changed between ON and OFF. You are required to store this state of change with EEPROM so that in the rare event of a power reset, the previous state of LED can be restored. (Require demonstration)
 
 https://wokwi.com/projects/343943891868713554 
-Pass Borderline Task 6
+Pass Borderline Task 6  
 Q1.Write a simple program to blink the LED every 5 second using timer interrupts (Do not use delay, millis, micros ) . (Require demonstration)
 
 https://wokwi.com/projects/342036030090642003
@@ -240,7 +240,7 @@ Q3. Write a program to display “I love Swinburne” in the LED matrix. When th
 
 https://wokwi.com/projects/343198469386666580
 
-Pass Plus Task
+Pass Plus Task  
 Q1. To design digital clock with few features. Connect OLED display to Arduino. Write program to display analog and digital clocks. At the beginning, the clock is set up using serial. A real time clock (RTC) module can be added as well. (Require demonstration)
 
 https://wokwi.com/projects/343196788796162642
@@ -249,7 +249,7 @@ Q2. To design LED matrix with few features. Make a proper connection for 8×8 LE
 
 https://wokwi.com/projects/344174479409152596
 
-Credit Task
+Credit Task  
 Q1. Continuing from Pass Plus Task 1 for designing digital clock with few features. Connect to a push button. Use the hardware interrupt to detect the button. If the button is pressed for certain seconds, it will convert to a stopwatch or back to be digital clock. While as stopwatch, the same button is used to start/stop the stopwatch (Require demonstration)
 // Enter A or D (UpperCase) to switch between Analogue or Digital, respectively.
 // This can be done at any stage of the solution; it can be changed later.
@@ -266,7 +266,7 @@ Q2. Continuing from Pass Plus Task 2 for designing LED matrix with few features.
 
 https://wokwi.com/projects/344174457615549011
 
-Distinction Task
+Distinction Task  
 Q1. Continuing from Credit Task 1 for designing digital clock with few features. Using the same button to have additional feature to set alarm system. Connect to a speaker for the output of the alarm. (Require demonstration)
 // Enter A or D (UpperCase) to switch between Analogue or Digital, respectively.
 // This can be done at any stage of the solution; it can be changed later.
@@ -291,7 +291,7 @@ Q2. Continuing from Credit Task 2 for designing LED matrix with few features. Co
 // press the button for > 2 to move the text from right to left.
 
 https://wokwi.com/projects/344174422163194451 
-High Distinction Task
+High Distinction Task  
 Q1. Continuing from Distinction Task 1 for designing digital clock with few features. Connect the temperature sensor to the microcontroller. Using previous button to have additional feature to turn on/off displaying temperature on the OLED display. If it is activated, read temperature sensor and display on OLED display. Apply three threshold (cold, medium and hot) and connect to LEDs for RGB LED as the output (Require demonstration)
 // Enter A or D (UpperCase) to switch between Analogue or Digital, respectively.
 // This can be done at any stage of the solution; it can be changed later.
