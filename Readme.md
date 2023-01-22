@@ -1,5 +1,11 @@
 # Hero Projects
 
+**Clock/Timer/Alarm Project**
+https://wokwi.com/projects/343190939116765779
+
+**LED Matrix Text Display**
+https://wokwi.com/projects/344174393136513619
+
 # Other Projects
 
 Pass Borderline Task 1
